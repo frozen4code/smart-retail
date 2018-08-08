@@ -1,0 +1,25 @@
+{
+  "name": "smart-retail",
+  "version": "0.0.1",
+  "main": "app.js",
+  "repository": "https://github.com/frozen4code/smart-retail.git",
+  "author": "Bhupender Singh <bhpndrsingh306@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "morgan": "^1.9.0",
+    "parse-error": "^0.2.0",
+    "pug": "^2.0.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "nodemon": "^1.18.3"
+  },
+  "scripts": {
+    "start": "nodemon ./bin/www --exec babel-node --presets env"
+  }
+}
